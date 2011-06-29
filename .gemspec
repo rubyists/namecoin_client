@@ -5,4 +5,5 @@ spec = Gem::Specification.new do |s|
   s.version = '1.0.0'
   s.files = ["lib/namecoin_client.rb"]
   s.add_dependency "json"
+  s.add_dependency "addressable"
 end
